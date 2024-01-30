@@ -72,6 +72,19 @@ public class SysUser implements Serializable {
      */
     private LocalDateTime updateTime;
 
+    /**
+     *用户头像
+     */
+    private String avater;
+
+
+    public String getAvater(){
+        return avater;
+    }
+
+    public void setAvater(String avater){
+        this.avater = avater;
+    }
 
     public Long getId() {
         return id;
